@@ -1,2 +1,2 @@
 # GalleryTEC
-Third proyect for Algorithms and data Sructures 2
+Tercer proyecto para el curso de Algoritmos y Estructuras de Datos 2
