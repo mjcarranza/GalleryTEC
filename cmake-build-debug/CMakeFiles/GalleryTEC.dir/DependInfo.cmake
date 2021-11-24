@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/mocs_compilation.cpp" "/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/GalleryTEC_autogen/mocs_compilation.cpp.o"
+  "/home/abner/Desktop/GalleryTEC/MainWindow.cpp" "/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/MainWindow.cpp.o"
   "/home/abner/Desktop/GalleryTEC/main.cpp" "/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -166,6 +166,30 @@ GalleryTEC_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/GalleryTEC_autogen/mocs_compilation.cpp.s
 .PHONY : GalleryTEC_autogen/mocs_compilation.cpp.s
 
+MainWindow.o: MainWindow.cpp.o
+.PHONY : MainWindow.o
+
+# target to build an object file
+MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/MainWindow.cpp.o
+.PHONY : MainWindow.cpp.o
+
+MainWindow.i: MainWindow.cpp.i
+.PHONY : MainWindow.i
+
+# target to preprocess a source file
+MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/MainWindow.cpp.i
+.PHONY : MainWindow.cpp.i
+
+MainWindow.s: MainWindow.cpp.s
+.PHONY : MainWindow.s
+
+# target to generate assembly for a file
+MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/MainWindow.cpp.s
+.PHONY : MainWindow.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -203,6 +227,9 @@ help:
 	@echo "... GalleryTEC_autogen/mocs_compilation.o"
 	@echo "... GalleryTEC_autogen/mocs_compilation.i"
 	@echo "... GalleryTEC_autogen/mocs_compilation.s"
+	@echo "... MainWindow.o"
+	@echo "... MainWindow.i"
+	@echo "... MainWindow.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

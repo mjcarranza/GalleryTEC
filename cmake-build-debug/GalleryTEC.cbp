@@ -110,6 +110,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.h">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.ui">
+			<Option target="GalleryTEC"/>
+		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/mocs_compilation.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>
