@@ -1,7 +1,3 @@
-//
-// Created by abner on 24/11/21.
-//
-
 #ifndef GALLERYTEC_MAINWINDOW_H
 #define GALLERYTEC_MAINWINDOW_H
 
