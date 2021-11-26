@@ -13,7 +13,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(GalleryTEC main.cpp MainWindow.cpp MainWindow.h MainWindow.ui)
+add_executable(GalleryTEC main.cpp MainWindow.cpp MainWindow.h MainWindow.ui StorageManager.cpp StorageManager.h)
 target_link_libraries(GalleryTEC
         Qt5::Core
         Qt5::Gui

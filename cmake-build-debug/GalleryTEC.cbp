@@ -119,6 +119,12 @@
 		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.ui">
 			<Option target="GalleryTEC"/>
 		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/StorageManager.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/StorageManager.h">
+			<Option target="GalleryTEC"/>
+		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/mocs_compilation.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>

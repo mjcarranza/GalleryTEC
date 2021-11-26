@@ -86,6 +86,12 @@
 			"MU",
 			"EWIEGA46WW/moc_MainWindow.cpp",
 			null
+		],
+		[
+			"/home/abner/Desktop/GalleryTEC/StorageManager.h",
+			"MU",
+			"EWIEGA46WW/moc_StorageManager.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -139,6 +145,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/abner/Desktop/GalleryTEC/MainWindow.cpp", "MU", null ],
+		[ "/home/abner/Desktop/GalleryTEC/StorageManager.cpp", "MU", null ],
 		[ "/home/abner/Desktop/GalleryTEC/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

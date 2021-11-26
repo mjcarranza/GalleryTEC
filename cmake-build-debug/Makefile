@@ -190,6 +190,30 @@ MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/MainWindow.cpp.s
 .PHONY : MainWindow.cpp.s
 
+StorageManager.o: StorageManager.cpp.o
+.PHONY : StorageManager.o
+
+# target to build an object file
+StorageManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/StorageManager.cpp.o
+.PHONY : StorageManager.cpp.o
+
+StorageManager.i: StorageManager.cpp.i
+.PHONY : StorageManager.i
+
+# target to preprocess a source file
+StorageManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/StorageManager.cpp.i
+.PHONY : StorageManager.cpp.i
+
+StorageManager.s: StorageManager.cpp.s
+.PHONY : StorageManager.s
+
+# target to generate assembly for a file
+StorageManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/StorageManager.cpp.s
+.PHONY : StorageManager.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -230,6 +254,9 @@ help:
 	@echo "... MainWindow.o"
 	@echo "... MainWindow.i"
 	@echo "... MainWindow.s"
+	@echo "... StorageManager.o"
+	@echo "... StorageManager.i"
+	@echo "... StorageManager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
