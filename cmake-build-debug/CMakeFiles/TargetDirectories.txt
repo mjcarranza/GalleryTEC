@@ -1,4 +1,0 @@
-/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC.dir
-/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC_autogen.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/GalleryTEC.dir/GalleryTEC_autogen/mocs_compilation.cpp.o CMakeFiles/GalleryTEC.dir/main.cpp.o CMakeFiles/GalleryTEC.dir/MainWindow.cpp.o -o GalleryTEC  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 
