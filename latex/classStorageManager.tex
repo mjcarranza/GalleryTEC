@@ -1,0 +1,70 @@
+\hypertarget{classStorageManager}{}\doxysection{Storage\+Manager Class Reference}
+\label{classStorageManager}\index{StorageManager@{StorageManager}}
+
+
+It is a library dedicated to saving files in a R\+A\+ID 5 configuration. It works by.  
+
+
+
+
+{\ttfamily \#include $<$Storage\+Manager.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classStorageManager_acd4d1dc59a6ac2fb69bb2cddcac33d69}{save}} (const std\+::string \&name, const std\+::string \&content)
+\item 
+void \mbox{\hyperlink{classStorageManager_a4d0b9cca0f74bff7d0c4997ee54c864a}{deactivate}} (int drivex)
+\item 
+std\+::string \mbox{\hyperlink{classStorageManager_a8b7c4695c9c5f3e8924df8708eb03a0c}{get\+File}} (std\+::string filename)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+It is a library dedicated to saving files in a R\+A\+ID 5 configuration. It works by. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classStorageManager_a4d0b9cca0f74bff7d0c4997ee54c864a}\label{classStorageManager_a4d0b9cca0f74bff7d0c4997ee54c864a}} 
+\index{StorageManager@{StorageManager}!deactivate@{deactivate}}
+\index{deactivate@{deactivate}!StorageManager@{StorageManager}}
+\doxysubsubsection{\texorpdfstring{deactivate()}{deactivate()}}
+{\footnotesize\ttfamily void Storage\+Manager\+::deactivate (\begin{DoxyParamCaption}\item[{int}]{drivex }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em drivex} & number of the drive to deactivate \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classStorageManager_a8b7c4695c9c5f3e8924df8708eb03a0c}\label{classStorageManager_a8b7c4695c9c5f3e8924df8708eb03a0c}} 
+\index{StorageManager@{StorageManager}!getFile@{getFile}}
+\index{getFile@{getFile}!StorageManager@{StorageManager}}
+\doxysubsubsection{\texorpdfstring{getFile()}{getFile()}}
+{\footnotesize\ttfamily string Storage\+Manager\+::get\+File (\begin{DoxyParamCaption}\item[{std\+::string}]{filename }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & name of the file to retrieve \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the content of the file in std\+::string format 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classStorageManager_acd4d1dc59a6ac2fb69bb2cddcac33d69}\label{classStorageManager_acd4d1dc59a6ac2fb69bb2cddcac33d69}} 
+\index{StorageManager@{StorageManager}!save@{save}}
+\index{save@{save}!StorageManager@{StorageManager}}
+\doxysubsubsection{\texorpdfstring{save()}{save()}}
+{\footnotesize\ttfamily void Storage\+Manager\+::save (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{const std\+::string \&}]{content }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & name of the file \\
+\hline
+{\em content} & content of the file (text) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Storage\+Manager.\+h\item 
+Storage\+Manager.\+cpp\end{DoxyCompactItemize}
