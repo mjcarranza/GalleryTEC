@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GalleryTEC_autogen.dir/ParseCache.txt"
   "GalleryTEC_autogen"
   "CMakeFiles/GalleryTEC.dir/ClientWindow.cpp.o"
+  "CMakeFiles/GalleryTEC.dir/CompressionAlgorithm.cpp.o"
   "CMakeFiles/GalleryTEC.dir/GalleryTEC_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/GalleryTEC.dir/StorageManager.cpp.o"
   "CMakeFiles/GalleryTEC.dir/main.cpp.o"

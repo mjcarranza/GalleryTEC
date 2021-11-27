@@ -13,7 +13,7 @@ find_package(Qt5 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(GalleryTEC main.cpp StorageManager.cpp StorageManager.h mainwindow.cpp mainwindow.h mainwindow.ui ClientWindow.cpp ClientWindow.h clientwindow.ui)
+add_executable(GalleryTEC main.cpp StorageManager.cpp StorageManager.h mainwindow.cpp mainwindow.h mainwindow.ui ClientWindow.cpp ClientWindow.h clientwindow.ui CompressionAlgorithm.cpp CompressionAlgorithm.h)
 target_link_libraries(GalleryTEC
         Qt5::Core
         Qt5::Gui

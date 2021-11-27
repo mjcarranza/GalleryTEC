@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include <QFileDialog>
+#include "StorageManager.h"
+#include "CompressionAlgorithm.h"
 
 namespace Ui {
     class ClientWindow;
@@ -21,6 +23,10 @@ private slots:
 
 private:
     Ui::ClientWindow *ui;
+    QColor pixArray[500][500];
+    CompressionAlgorithm* compressor = new CompressionAlgorithm();
+    StorageManager* raidLib = new StorageManager();
+
 };
 
 #endif // CLIENTWINDOW_H

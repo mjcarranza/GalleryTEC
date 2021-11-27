@@ -166,6 +166,30 @@ ClientWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/ClientWindow.cpp.s
 .PHONY : ClientWindow.cpp.s
 
+CompressionAlgorithm.o: CompressionAlgorithm.cpp.o
+.PHONY : CompressionAlgorithm.o
+
+# target to build an object file
+CompressionAlgorithm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/CompressionAlgorithm.cpp.o
+.PHONY : CompressionAlgorithm.cpp.o
+
+CompressionAlgorithm.i: CompressionAlgorithm.cpp.i
+.PHONY : CompressionAlgorithm.i
+
+# target to preprocess a source file
+CompressionAlgorithm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/CompressionAlgorithm.cpp.i
+.PHONY : CompressionAlgorithm.cpp.i
+
+CompressionAlgorithm.s: CompressionAlgorithm.cpp.s
+.PHONY : CompressionAlgorithm.s
+
+# target to generate assembly for a file
+CompressionAlgorithm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/GalleryTEC.dir/build.make CMakeFiles/GalleryTEC.dir/CompressionAlgorithm.cpp.s
+.PHONY : CompressionAlgorithm.cpp.s
+
 GalleryTEC_autogen/mocs_compilation.o: GalleryTEC_autogen/mocs_compilation.cpp.o
 .PHONY : GalleryTEC_autogen/mocs_compilation.o
 
@@ -275,6 +299,9 @@ help:
 	@echo "... ClientWindow.o"
 	@echo "... ClientWindow.i"
 	@echo "... ClientWindow.s"
+	@echo "... CompressionAlgorithm.o"
+	@echo "... CompressionAlgorithm.i"
+	@echo "... CompressionAlgorithm.s"
 	@echo "... GalleryTEC_autogen/mocs_compilation.o"
 	@echo "... GalleryTEC_autogen/mocs_compilation.i"
 	@echo "... GalleryTEC_autogen/mocs_compilation.s"

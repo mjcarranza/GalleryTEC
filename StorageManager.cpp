@@ -40,7 +40,7 @@ void StorageManager::save(const std::string& name, const std::string& content) {
         string character = bitset<8>(i).to_string();
         content_string_binary+=character;
     }
-    cout<<"content_string_binary created: "<<content_string_binary<<endl;
+    //cout<<"content_string_binary created: "<<content_string_binary<<endl;
 
     //divides the raw data in slices and calculates the parity slice
     string slices[4];
@@ -49,9 +49,9 @@ void StorageManager::save(const std::string& name, const std::string& content) {
         slices[i] = content_string_binary.substr(i*slice_size,slice_size);
         parity_slice = xoring(parity_slice, content_string_binary.substr(i*slice_size,slice_size),slice_size);
     }
-    cout<<"parity_slice calculated: "<<parity_slice<<endl;
+    //cout<<"parity_slice calculated: "<<parity_slice<<endl;
 
-    cout<<"slices array created"<<endl;
+    //cout<<"slices array created"<<endl;
     for(int i = 0; i<4;i++){
         cout<<"slice: "<<i<<endl;
         cout<<slices[i]<<endl;
@@ -66,7 +66,7 @@ void StorageManager::save(const std::string& name, const std::string& content) {
             striped_file[i]=slices[i];
         }
     }
-    cout<<"stripped_file array created"<<endl;
+    //cout<<"stripped_file array created"<<endl;
     for(int i = 0; i<5;i++){
         cout<<"slice: "<<i<<endl;
         cout<<striped_file[i]<<endl;

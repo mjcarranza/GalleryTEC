@@ -116,6 +116,12 @@
 		<Unit filename="/home/abner/Desktop/GalleryTEC/ClientWindow.h">
 			<Option target="GalleryTEC"/>
 		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/CompressionAlgorithm.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h">
+			<Option target="GalleryTEC"/>
+		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/StorageManager.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>

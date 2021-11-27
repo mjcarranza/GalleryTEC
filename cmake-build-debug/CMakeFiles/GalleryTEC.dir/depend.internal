@@ -4,6 +4,8 @@
 CMakeFiles/GalleryTEC.dir/ClientWindow.cpp.o
  /home/abner/Desktop/GalleryTEC/ClientWindow.cpp
  /home/abner/Desktop/GalleryTEC/ClientWindow.h
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h
+ /home/abner/Desktop/GalleryTEC/StorageManager.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -131,8 +133,13 @@ CMakeFiles/GalleryTEC.dir/ClientWindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  GalleryTEC_autogen/include/ui_clientwindow.h
+CMakeFiles/GalleryTEC.dir/CompressionAlgorithm.cpp.o
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.cpp
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h
 CMakeFiles/GalleryTEC.dir/GalleryTEC_autogen/mocs_compilation.cpp.o
  /home/abner/Desktop/GalleryTEC/ClientWindow.h
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h
+ /home/abner/Desktop/GalleryTEC/StorageManager.h
  /home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/EWIEGA46WW/moc_ClientWindow.cpp
  /home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/EWIEGA46WW/moc_mainwindow.cpp
  /home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/mocs_compilation.cpp
@@ -253,6 +260,8 @@ CMakeFiles/GalleryTEC.dir/StorageManager.cpp.o
  /home/abner/Desktop/GalleryTEC/StorageManager.h
 CMakeFiles/GalleryTEC.dir/main.cpp.o
  /home/abner/Desktop/GalleryTEC/ClientWindow.h
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h
+ /home/abner/Desktop/GalleryTEC/StorageManager.h
  /home/abner/Desktop/GalleryTEC/main.cpp
  /home/abner/Desktop/GalleryTEC/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
@@ -375,6 +384,8 @@ CMakeFiles/GalleryTEC.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/GalleryTEC.dir/mainwindow.cpp.o
  /home/abner/Desktop/GalleryTEC/ClientWindow.h
+ /home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h
+ /home/abner/Desktop/GalleryTEC/StorageManager.h
  /home/abner/Desktop/GalleryTEC/mainwindow.cpp
  /home/abner/Desktop/GalleryTEC/mainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant

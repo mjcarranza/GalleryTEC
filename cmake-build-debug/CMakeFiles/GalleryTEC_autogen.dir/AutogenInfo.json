@@ -88,6 +88,12 @@
 			null
 		],
 		[
+			"/home/abner/Desktop/GalleryTEC/CompressionAlgorithm.h",
+			"MU",
+			"EWIEGA46WW/moc_CompressionAlgorithm.cpp",
+			null
+		],
+		[
 			"/home/abner/Desktop/GalleryTEC/StorageManager.h",
 			"MU",
 			"EWIEGA46WW/moc_StorageManager.cpp",
@@ -151,6 +157,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/abner/Desktop/GalleryTEC/ClientWindow.cpp", "MU", null ],
+		[ "/home/abner/Desktop/GalleryTEC/CompressionAlgorithm.cpp", "MU", null ],
 		[ "/home/abner/Desktop/GalleryTEC/StorageManager.cpp", "MU", null ],
 		[ "/home/abner/Desktop/GalleryTEC/main.cpp", "MU", null ],
 		[ "/home/abner/Desktop/GalleryTEC/mainwindow.cpp", "MU", null ]
