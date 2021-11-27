@@ -4,7 +4,7 @@
 #include "StorageManager.h"
 #include <vector>
 #include <bitset>
-#include <filesystem>
+#include <glob.h>
 
 using namespace std;
 
@@ -13,7 +13,7 @@ StorageManager::StorageManager(){
 }
 
 string xoring(string a, string b, int n){
-    string ans ="";
+    string ans;
 
     for(int i = 0; i < n;i++){
         ans += (bitset<1>(a[i])^bitset<1>(b[i])).to_string();
@@ -85,5 +85,42 @@ void StorageManager::save(const std::string& name, const std::string& content) {
 }
 
 string StorageManager::getFile(std::string filename) {
+    string file_path=drives[0][0]+filename;
+    glob_t globbuf;
+
+    //
+    string partial_path = file_path + "*.txt";
+    glob(partial_path.c_str(), 0, NULL, &globbuf);
+    for (size_t i = 0;i < globbuf.gl_pathc;i++){
+        cout << "found: " << globbuf.gl_pathv[i]<<endl;
+        ifstream f(globbuf.gl_pathv[i]);
+        if(f.good()) {
+            cout<<"File good"<<endl;
+            //path of the file
+            string path = globbuf.gl_pathv[i];
+
+            //Local parity location
+            int local_parity_place = stoi(path.substr(path.find(filename)+filename.length()+1, path.length()-(path.find(filename)+filename.length()+1)-4));
+
+            string complete_filename = path.substr(path.find(filename), 9999999);
+
+            string raiddata[5];
+
+            //getting the raw data in the raid into an array
+            for(int t = 0; t < 5; t++){
+                raiddata[t]= drives[t][0] + "/" + complete_filename;
+            }
+
+            string local_file_content;
+
+            for(int j=0; j < 5; j++){
+                if(j != local_parity_place - 1){
+                    local_file_content+=raiddata[j];
+                }
+            }
+            break;
+        }
+    }
+    cout<<"finished looking"<<endl;
 
 }
