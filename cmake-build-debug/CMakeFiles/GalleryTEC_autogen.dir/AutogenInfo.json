@@ -82,15 +82,21 @@
 	"HEADERS" : 
 	[
 		[
-			"/home/abner/Desktop/GalleryTEC/MainWindow.h",
+			"/home/abner/Desktop/GalleryTEC/ClientWindow.h",
 			"MU",
-			"EWIEGA46WW/moc_MainWindow.cpp",
+			"EWIEGA46WW/moc_ClientWindow.cpp",
 			null
 		],
 		[
 			"/home/abner/Desktop/GalleryTEC/StorageManager.h",
 			"MU",
 			"EWIEGA46WW/moc_StorageManager.cpp",
+			null
+		],
+		[
+			"/home/abner/Desktop/GalleryTEC/mainwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
@@ -144,9 +150,10 @@
 	"SETTINGS_FILE" : "/home/abner/Desktop/GalleryTEC/cmake-build-debug/CMakeFiles/GalleryTEC_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/abner/Desktop/GalleryTEC/MainWindow.cpp", "MU", null ],
+		[ "/home/abner/Desktop/GalleryTEC/ClientWindow.cpp", "MU", null ],
 		[ "/home/abner/Desktop/GalleryTEC/StorageManager.cpp", "MU", null ],
-		[ "/home/abner/Desktop/GalleryTEC/main.cpp", "MU", null ]
+		[ "/home/abner/Desktop/GalleryTEC/main.cpp", "MU", null ],
+		[ "/home/abner/Desktop/GalleryTEC/mainwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

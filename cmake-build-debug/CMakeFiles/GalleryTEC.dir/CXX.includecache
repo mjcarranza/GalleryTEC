@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/abner/Desktop/GalleryTEC/MainWindow.h
-QWidget
+/home/abner/Desktop/GalleryTEC/ClientWindow.cpp
+ClientWindow.h
+/home/abner/Desktop/GalleryTEC/ClientWindow.h
+ui_clientwindow.h
+/home/abner/Desktop/GalleryTEC/ui_clientwindow.h
+
+/home/abner/Desktop/GalleryTEC/ClientWindow.h
+QMainWindow
+-
+QFileDialog
 -
 
-/home/abner/Desktop/GalleryTEC/main.cpp
-QApplication
--
-QPushButton
--
-MainWindow.h
-/home/abner/Desktop/GalleryTEC/MainWindow.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
+qvariant.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
 QtCore/qglobal.h
@@ -172,6 +176,16 @@ map
 utility
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -188,6 +202,16 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -1052,6 +1076,18 @@ QtGui/qtguiglobal.h
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFileDialog
+qfiledialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+qlabel.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+qmainwindow.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
@@ -1094,6 +1130,44 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qwidget.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtWidgets/qtabwidget.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1106,6 +1180,14 @@ QtWidgets/qtwidgetsglobal.h
 QtCore/qobject.h
 -
 QtCore/qalgorithms.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtGui/qicon.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
@@ -1146,5 +1228,19 @@ QtGui/qcursor.h
 QtGui/qkeysequence.h
 -
 QtGui/qevent.h
+-
+
+GalleryTEC_autogen/include/ui_clientwindow.h
+QtCore/QVariant
+-
+QtWidgets/QApplication
+-
+QtWidgets/QLabel
+-
+QtWidgets/QMainWindow
+-
+QtWidgets/QPushButton
+-
+QtWidgets/QWidget
 -
 

@@ -110,13 +110,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.cpp">
+		<Unit filename="/home/abner/Desktop/GalleryTEC/ClientWindow.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>
-		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.h">
-			<Option target="GalleryTEC"/>
-		</Unit>
-		<Unit filename="/home/abner/Desktop/GalleryTEC/MainWindow.ui">
+		<Unit filename="/home/abner/Desktop/GalleryTEC/ClientWindow.h">
 			<Option target="GalleryTEC"/>
 		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/StorageManager.cpp">
@@ -125,10 +122,22 @@
 		<Unit filename="/home/abner/Desktop/GalleryTEC/StorageManager.h">
 			<Option target="GalleryTEC"/>
 		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/clientwindow.ui">
+			<Option target="GalleryTEC"/>
+		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/cmake-build-debug/GalleryTEC_autogen/mocs_compilation.cpp">
 			<Option target="GalleryTEC"/>
 		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/main.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/mainwindow.cpp">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/mainwindow.h">
+			<Option target="GalleryTEC"/>
+		</Unit>
+		<Unit filename="/home/abner/Desktop/GalleryTEC/mainwindow.ui">
 			<Option target="GalleryTEC"/>
 		</Unit>
 		<Unit filename="/home/abner/Desktop/GalleryTEC/CMakeLists.txt">
