@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/abner/Desktop/GalleryTEC/StorageManager.cpp
+iostream
+-
+fstream
+-
+StorageManager.h
+/home/abner/Desktop/GalleryTEC/StorageManager.h
+vector
+-
+bitset
+-
+glob.h
+-
+
+/home/abner/Desktop/GalleryTEC/StorageManager.h
+iostream
+-
+
